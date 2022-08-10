@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build_PDF_Article",
+            "type": "shell",
+            "command": "build_pdf.bat",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                //"isDefault": true
+            }
+        },
+        {
+            "label": "Build_DOC_Article",
+            "type": "shell",
+            "command": "build_docx.bat",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+            }
+        },
+        {
+            "label": "Build_HTML_Article",
+            "type": "shell",
+            "command": "build_html.bat",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+            }
+        }
+    ]
+}

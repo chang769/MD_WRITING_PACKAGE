@@ -1,0 +1,90 @@
+---
+  title: "**TITLE_OF_ARTICLE**"
+  author:
+    - Chang Shu:
+        institute: CoU
+        # equal_contributor: "yes"
+        # correspondence: "yes"
+        email: changshu769@gmail.com
+    - Abhishek Gaur:
+        institute: NRC
+    - Michal Bartko:
+        institute: NRC
+    - Abdelaziz Laouadi:
+        institute: NRC
+    - Lili Ji:
+        institute: CoU
+    - Michael Lacasse:
+        institute: NRC
+    - Liangzhu (Leon) Wang:
+        institute: CoU
+  institute:
+    - CoU:
+        name: Department of Building, Civil and Environmental Engineering, Concordia University, Montreal, 1455 De Maisonneuve, H3G 1M8, Montreal, Quebec, Canada
+    - NRC:
+        name: Construction Research Centre, National Research Council Canada, 1200 Montreal Road, K1A 0R6, Ottawa, Ontario, Canada
+  bibliography: ["Local_Collection.bib"]
+  csl: "./CSL/sustainable-cities-and-society.csl"
+  link-citations: true
+  linkReferences: true
+  nameInLink: true
+  lang: en-GB
+  # numberSections: true
+  # sectionsDepth: 2
+  # Formatting
+  toc_depth: 5
+  # toc: true # Table of contents
+  # lof: true # List of figures
+  # lot: true # List of tables
+  toc-title: "List of Contents"
+  loftitle: "List of Figures"
+  lotTitle: "List of Tables"
+  fontsize: 12pt
+  linestretch: 1.5
+  # autoEqnLabels: true
+  tableEqns: true
+  subfigGrid: true
+  ccsLabelSep: ")&nbsp;"
+  figureTitle: "**Figure**"
+  figPrefix:
+    - "**Figure.**"
+    - "**Figures.**"
+  tableTitle: "**Table**"
+  tblPrefix:
+    - "**Table.**"
+    - "**Tables.**"
+  eqnPrefix:
+    - "**Eq.**"
+    - "**Eqs.**"
+  papersize: a4
+  color-links: true # See https://ctan.org/pkg/xcolor for colors
+  linkcolor: black
+  urlcolor: black
+  citecolor: black
+  links-as-notes: true
+  margin-left: 2cm
+  margin-right: 2cm
+  margin-top: 2cm
+  margin-bottom: 2cm
+  documentclass: article # See https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes for more classes and options
+  classoption: [notitlepage, onecolumn, openany]
+  # geometry: [a4paper, bindingoffset=0mm, inner=20mm, outer=20mm, top=20mm, bottom=20mm] # See https://ctan.org/pkg/geometry for more options
+  # header-includes:
+  #   - \linepenalty=10 # the penalty added to the badness of each line within a paragraph (no associated penalty node) Increasing the value makes tex try to have fewer lines in the paragraph.
+  #   - \interlinepenalty=0 # value of the penalty (node) added after each line of a paragraph.
+  #   - \hyphenpenalty=50 # the penalty for line breaking at an automatically inserted hyphen
+  #   - \exhyphenpenalty=50 # the penalty for line breaking at an explicit hyphen
+  #   - \binoppenalty=700 # the penalty for breaking a line at a binary operator
+  #   - \relpenalty=500 # the penalty for breaking a line at a relation
+  #   - \clubpenalty=150 # extra penalty for breaking after first line of a paragraph
+  #   - \widowpenalty=150 # extra penalty for breaking before last line of a paragraph
+  #   - \displaywidowpenalty=50 # extra penalty for breaking before last line before a display math
+  #   - \brokenpenalty=100 # extra penalty for page breaking after a hyphenated line
+  #   - \predisplaypenalty=10000 # penalty for breaking before a display
+  #   - \postdisplaypenalty=0 # penalty for breaking after a display
+  #   - \floatingpenalty = 20000 # penalty for splitting an insertion (can only be split footnote in standard LaTeX)
+  #   - \raggedbottom # or \flushbottom
+  #   - \usepackage{float} # keep figures where there are in the text
+  #   - \floatplacement{figure}{H} # keep figures where there are in the text
+  # output: rticles::elsevier_article
+---
